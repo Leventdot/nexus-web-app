@@ -2,8 +2,8 @@ import streamlit as st
 from supabase import create_client, Client
 
 # --- SUPABASE CONFIG ---
-URL = "YOUR_SUPABASE_URL"
-KEY = "YOUR_SUPABASE_KEY"
+URL = "https://zlpubuddzujxfafwnxyx.supabase.co"
+KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpscHVidWRkenVqeGZhZndueHl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM2MDAwMTcsImV4cCI6MjA4OTE3NjAxN30.WEi7DZ9Do6zCD2keHEDJ3dqxL89ZukMZ9PvC8DZXCuY"
 supabase: Client = create_client(URL, KEY)
 
 st.set_page_config(page_title="Nexus Global Web", page_icon="🌐")
