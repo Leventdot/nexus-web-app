@@ -136,4 +136,4 @@ else:
     # --- ADMIN PANEL ---
     elif choice == "Admin Panel":
         st.header("🛠️ Admin Dashboard")
-        a_tab1, a_tab2 = st.tabs(["Users", "
+a_tab1, a_tab2 = st.tabs(["Users", "Reports"])
