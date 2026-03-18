@@ -2,7 +2,6 @@ import streamlit as st
 from supabase import create_client, Client
 
 # --- 1. SECURE CONFIGURATION ---
-# These pull from your "Secrets" vault in Streamlit Cloud
 try:
     URL = st.secrets["SUPABASE_URL"]
     KEY = st.secrets["SUPABASE_KEY"]
